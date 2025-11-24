@@ -149,6 +149,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
 .loader-dot {
   width: 16px;
   height: 16px;
