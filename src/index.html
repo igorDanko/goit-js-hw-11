@@ -10,9 +10,7 @@
   <body>
     <main class="page">
       <form class="form" autocomplete="off">
-        <label class="visually-hidden" for="search-input"
-          >Search images</label
-        >
+        <label class="visually-hidden" for="search-input">Search images</label>
         <input
           id="search-input"
           type="text"
@@ -23,15 +21,15 @@
         <button type="submit">Search</button>
       </form>
 
-      <div class="loader js-loader is-hidden" aria-hidden="true">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+      <span class="loader js-loader is-hidden" aria-hidden="true">
+        <span class="loader-dot"></span>
+        <span class="loader-dot"></span>
+        <span class="loader-dot"></span>
+        <span class="loader-dot"></span>
+      </span>
 
       <ul class="gallery"></ul>
     </main>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
